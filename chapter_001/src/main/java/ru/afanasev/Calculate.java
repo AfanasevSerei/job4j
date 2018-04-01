@@ -6,12 +6,21 @@ package ru.afanasev;
 * @version $Id$
 * @since 0.1
 */
-public class Calculate{
-	public String echo(String value){
-		return String.format("%s %s %s",value, value, value);
-	}
-	public static void main(String[] args){
-		Calculate calc = new Calculate();
-		System.out.println(calc.echo("aah"));
-	}
+public class Calculate {
+    /**
+     * Main.
+     * @param args - args.
+     */
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+
+    /**
+     * Method echo.
+     * @param name Your name.
+     * @return Echo plus your name.
+     */
+    public String echo(String name) {
+        return "Echo, echo, echo : " + name;
+    }
 }
