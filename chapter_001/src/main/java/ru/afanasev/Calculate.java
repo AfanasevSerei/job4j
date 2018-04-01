@@ -2,7 +2,7 @@ package ru.afanasev;
 /**
 * Package for calculate task.
 *
-* @author Afanasev Serei (parsentev@yandex.ru)
+* @author Afanasev Serei (qwerr75@mail.ru)
 * @version $Id$
 * @since 0.1
 */
