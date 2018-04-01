@@ -1,5 +1,11 @@
 package ru.afanasev;
-
+/**
+* Package for calculate task.
+*
+* @author Afanasev Serei (parsentev@yandex.ru)
+* @version $Id$
+* @since 0.1
+*/
 public class Calculate{
 	public String echo(String value){
 		return String.format("%s %s %s",value, value, value);
