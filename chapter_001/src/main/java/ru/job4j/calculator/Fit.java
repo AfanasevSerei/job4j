@@ -12,7 +12,7 @@ public class Fit {
      * @return идеальный вес.
      */
     public double manWeight(double height) {
-        double res=(height-100)*1.15;
+        double res = (height - 100) * 1.15;
         return res;
     }
 
@@ -23,7 +23,7 @@ public class Fit {
      * @return идеальный вес.
      */
     public double womanWeight(double height) {
-        double res=(height-110)*1.15;
+        double res = ( height - 110 ) * 1.15;
         return res;
     }
 }
